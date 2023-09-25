@@ -12,7 +12,7 @@ public class WelcomeController {
 	@GetMapping("/welcome")
 	@ResponseBody
 	public String Welcome(Model model) {
-		return "Welcome TO My World!!!";
+		return "Hey Buddy,\nWelcome TO My World!!!";
 	}
 
 }
